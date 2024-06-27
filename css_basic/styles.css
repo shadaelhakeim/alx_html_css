@@ -1,0 +1,41 @@
+body, main{
+    display: flex;
+}
+body{
+    flex-direction: column;
+}
+main{
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y:auto;
+    background-color: #f5f5dcc2;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+table{
+    letter-spacing: 2px;
+        height: 11rem;
+            width: 20rem;
+}
+tbody{
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: #c56229;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f1bb9b;
+}
+footer{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f7f7e4;
+                padding: 30px;
+}
