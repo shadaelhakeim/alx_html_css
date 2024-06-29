@@ -72,6 +72,7 @@ header ul li a{
     font-weight: 600;
 
 }
+
 .banner-main button{
     border-radius: 50px;
         padding: 17px;
@@ -96,6 +97,7 @@ header ul li a{
 }
 .banner-pros h3 span{
     color: var(--main-text-color);
+    font-weight: 500;
 }
 .avatars{
     display: flex;
